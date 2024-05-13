@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saint Kizito Save TSS</title>
+  <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #bdaa11;
+  padding: 20px;
+  margin: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Section Styles */
+section {
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-style: italic;
+  text-align: center;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e7e7e7;
+  margin: 5px;
+  padding: 10px;
+}
+
+ul li:hover {
+  background-color: #dcdcdc;
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <img src="st kizito.jpg" alt="">
+    <h1>Saint Kizito Save TSS</h1>
+  </header>
+  <main>
+    <nav class="navbar navbar-expand-lg" style="padding: 20px; margin: 5px; background-color: rgb(189, 172, 17);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1 style="padding-right: 10px; margin: 10px;"></h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav style="float: left;">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="trades.html">Trades</a>
+                        
+                        <a class="nav-link" href="register.html">Register</a>
+                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    <section id="description">
+      
+    </section>
+    <section id="trades">
+      <h2>Trades</h2>
+      <p><ul>
+        <li>Software Development</li>
+        <li>Computer System and Architecture </li>
+        <li>Multimedia Production</li>
+        <li>Electrical Technology</li>
+        <li>Electronics and Telecommunication</li>
+        <li>Wood Technology</li>
+        <li>Land Surveying</li>
+        <li>Public Works</li>
+        <li>Building and Construction</li>
+      </ul></p>
+    </section>
+  </main>
+</body>
+</html>
